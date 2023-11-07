@@ -1,0 +1,67 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+html ::-webkit-scrollbar {
+
+  width: 10px;
+
+}
+
+html ::-webkit-scrollbar-thumb {
+
+  border-radius: 10px;
+
+  background: #6b676b;
+
+}
+
+html ::-webkit-scrollbar-track {
+
+  background: #fff;
+
+}
+
+html ::selection {
+
+  color: #ededed;
+
+  background-color: #fff;
+
+}
+
+.cima {
+  justify-content: center;
+  
+}
+
+.cor {
+  background-color: #6b676b;
+}
